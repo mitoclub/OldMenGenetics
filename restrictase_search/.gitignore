@@ -1,0 +1,8 @@
+data/interim
+data/raw
+data/processed/re.csv
+
+*.sif
+env*
+*.ipynb_checkpoints
+*__pycache__
