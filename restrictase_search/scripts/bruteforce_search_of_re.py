@@ -10,37 +10,37 @@ import tqdm
 
 PATH_TO_SEQS = "data/raw/sequence.fasta"
 PATH_TO_OUT_RE = "data/processed/re.csv"
-PATH_TO_OUT_CUTNUM = "data/share/cuted_seqs_num.csv"
+PATH_TO_OUT_CUTNUM = "data/processed/cuted_seqs_num.csv"
 THREADS = 24  # and 10GB of RAM
 PROB = 0.01
 
 enzymes = AllEnzymes.copy()
 
 
-def _cleanup_enzyme_collection():
-    """ olf function. need to rewrite if want to use """
-    fasta = SeqIO.parse(PATH_TO_SEQS, "fasta")
-    n = 0
-    pot_rs = []
-    for rec in tqdm.tqdm(fasta, "Seqs", 56446):
-        if random.random() > PROB:
-            continue
-        n += 1
-        anal = Analysis(enzymes, rec.seq, linear=False)
-        anal.mapping # dict[RS_name, positions]
+# def _cleanup_enzyme_collection():
+#     """ old function. need to rewrite if want to use """
+#     fasta = SeqIO.parse(PATH_TO_SEQS, "fasta")
+#     n = 0
+#     pot_rs = []
+#     for rec in tqdm.tqdm(fasta, "Seqs", 56446):
+#         if random.random() > PROB:
+#             continue
+#         n += 1
+#         anal = Analysis(enzymes, rec.seq, linear=False)
+#         anal.mapping # dict[RS_name, positions]
         
-        for rest_enz, positions in anal.mapping.items():
-            if len(positions) == 1:
-                pot_rs.append(rest_enz)
+#         for rest_enz, positions in anal.mapping.items():
+#             if len(positions) == 1:
+#                 pot_rs.append(rest_enz)
 
-    ctr = Counter(pot_rs)
-    m = 0
-    for enz, amount in ctr.items():
-        if amount != n:  # here main problem
-            if enz in enzymes:
-                enzymes.remove(enz)
-                m += 1
-    print(f"Removed {m} enzymes")
+#     ctr = Counter(pot_rs)
+#     m = 0
+#     for enz, amount in ctr.items():
+#         if amount != n:  # here main problem
+#             if enz in enzymes:
+#                 enzymes.remove(enz)
+#                 m += 1
+#     print(f"Removed {m} enzymes")
     
 
 def extract_restr_enz(rec: SeqRecord) -> list:
