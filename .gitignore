@@ -1,3 +1,5 @@
 data/*
 !data/share
 !data/external
+!data/processed
+*.ipynb_checkpoints
