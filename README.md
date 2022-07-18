@@ -74,4 +74,4 @@ samtools depth -H -q 20 data/interim/mapping/*.bam > data/interim/depth.tsv
 ## References
 
 1. [fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
-2. ...
+2. [GRCh38.p14](https://www.ncbi.nlm.nih.gov/data-hub/genome/GCF_000001405.40/)
