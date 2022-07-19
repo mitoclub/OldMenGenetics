@@ -9,7 +9,7 @@ from Bio import SeqIO
 import tqdm
 
 PATH_TO_SEQS = "data/raw/sequence.fasta"
-PATH_TO_OUT_RE = "data/processed/re.csv"
+PATH_TO_OUT_RE = "data/interim/re.csv"
 PATH_TO_OUT_CUTNUM = "data/processed/cuted_seqs_num.csv"
 THREADS = 24  # and 10GB of RAM
 PROB = 0.01

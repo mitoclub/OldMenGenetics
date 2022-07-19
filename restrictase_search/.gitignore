@@ -1,6 +1,5 @@
 data/interim
 data/raw
-data/processed/re.csv
 
 *.sif
 env*
