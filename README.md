@@ -51,6 +51,18 @@ for r1 in data/interim/trimmed/Kgd-mtDNA-S*.trimmed.R1.fastq.gz
 
 ### Mapping stats
 
+Collect stats
+
+```bash
+for bam in data/interim/mapping/Kgd-mtDNA-S*.bam
+  do
+    sample=`basename $bam '.bam'`
+    samtools flagstat $bam -O tsv > data/processed/mapping_stats/$sample.txt
+  done
+```
+
+Collect mapped reads percentage
+
 ```bash
 for bam in data/interim/mapping/Kgd-mtDNA-S*.bam
   do
