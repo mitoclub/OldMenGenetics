@@ -1,6 +1,8 @@
-data/*
-!data/share
-!data/external
-restrictase_search/data/external/GCF_000001405.40*
-!data/processed
+data/interim
+data/raw
+
+env*
 *.ipynb_checkpoints
+*__pycache__
+*.sif
+*.zip

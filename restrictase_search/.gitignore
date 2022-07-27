@@ -1,7 +1,3 @@
+data/external/GCF_000001405.40*
 data/interim
 data/raw
-
-*.sif
-env*
-*.ipynb_checkpoints
-*__pycache__
