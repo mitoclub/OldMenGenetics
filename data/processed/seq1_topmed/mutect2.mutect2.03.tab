@@ -1,0 +1,57 @@
+#H                             # number of homozygous SNVs (the multiallelic SNVs counted once)
+#h                             # number of heterozygous SNVs
+#S                             # number of homozygous SNVs (excluding INDELs)
+#s                             # number of heterozygous SNVs (excluding INDELs)
+#I                             # number of homozygous INDELs
+#i                             # number of heterozygous INDELs
+#?p                            # "p" suffix stands for non homopolimeric
+#A                             # total number of SNVs (H+h)
+
+Run	H	h	S	s	I	i	Hp	hp	Sp	sp	Ip	ip	A
+Kgd-mtDNA-S01.NAR	13	3	11	2	2	1	11	2	11	2	0	0	16
+Kgd-mtDNA-S02.NAR	0	28	0	26	0	2	0	25	0	25	0	0	28
+Kgd-mtDNA-S03.NAR	13	8	13	7	0	1	12	7	12	7	0	0	21
+Kgd-mtDNA-S04.NAR	7	8	6	8	1	0	6	8	6	8	0	0	15
+Kgd-mtDNA-S05.NAR	11	4	10	4	1	0	10	4	10	4	0	0	15
+Kgd-mtDNA-S06.NAR	12	7	11	4	1	3	11	6	11	4	0	2	19
+Kgd-mtDNA-S07.NAR	10	7	9	6	1	1	9	6	9	6	0	0	17
+Kgd-mtDNA-S08.NAR	9	3	8	3	1	0	8	3	8	3	0	0	12
+Kgd-mtDNA-S09.NAR	0	35	0	34	0	1	0	34	0	34	0	0	35
+Kgd-mtDNA-S10.NAR	7	7	7	5	0	2	7	5	7	5	0	0	14
+Kgd-mtDNA-S11.NAR	11	7	10	6	1	1	10	5	10	5	0	0	18
+Kgd-mtDNA-S12.NAR	38	16	37	12	1	4	36	12	36	12	0	0	54
+Kgd-mtDNA-S13.NAR	23	7	23	4	0	3	22	3	22	3	0	0	30
+Kgd-mtDNA-S14.NAR	8	7	7	7	1	0	7	7	7	7	0	0	15
+Kgd-mtDNA-S15.NAR	30	10	29	9	1	1	28	9	28	9	0	0	40
+Kgd-mtDNA-S16.NAR	35	11	34	9	1	2	34	10	34	9	0	1	46
+Kgd-mtDNA-S17.NAR	28	5	27	5	1	0	27	5	27	5	0	0	33
+Kgd-mtDNA-S18.NAR	39	9	37	7	2	2	38	7	37	7	1	0	48
+Kgd-mtDNA-S19.NAR	28	8	27	6	1	2	26	6	26	6	0	0	36
+Kgd-mtDNA-S20.NAR	0	21	0	19	0	2	0	19	0	19	0	0	21
+Kgd-mtDNA-S21.NAR	11	24	11	20	0	4	11	20	11	18	0	2	35
+Kgd-mtDNA-S22.NAR	0	19	0	16	0	3	0	18	0	16	0	2	19
+Kgd-mtDNA-S23.NAR	0	16	0	14	0	2	0	14	0	14	0	0	16
+Kgd-mtDNA-S24.NAR	42	3	41	3	1	0	40	2	40	2	0	0	45
+Kgd-mtDNA-S25.NAR	17	6	14	6	3	0	14	6	14	6	0	0	23
+Kgd-mtDNA-S26.NAR	35	3	34	2	1	1	34	2	34	2	0	0	38
+Kgd-mtDNA-S28.NAR	12	7	11	6	1	1	11	4	11	4	0	0	19
+Kgd-mtDNA-S29.NAR	12	6	11	6	1	0	11	6	11	6	0	0	18
+Kgd-mtDNA-S30.NAR	6	10	6	8	0	2	6	8	6	8	0	0	16
+Kgd-mtDNA-S31.NAR	27	6	26	6	1	0	26	6	26	6	0	0	33
+Kgd-mtDNA-S32.NAR	10	4	9	4	1	0	9	4	9	4	0	0	14
+Kgd-mtDNA-S33.NAR	15	11	13	6	2	5	13	10	13	6	0	4	26
+Kgd-mtDNA-S34.NAR	0	40	0	34	0	6	0	36	0	33	0	3	40
+Kgd-mtDNA-S35.NAR	35	17	34	13	1	4	33	14	33	13	0	1	52
+Kgd-mtDNA-S36.NAR	11	3	9	2	2	1	9	3	9	2	0	1	14
+Kgd-mtDNA-S37.NAR	2	34	2	28	0	6	2	31	2	28	0	3	36
+Kgd-mtDNA-S38.NAR	21	12	21	10	0	2	21	10	21	10	0	0	33
+Kgd-mtDNA-S39.NAR	14	4	12	4	2	0	12	4	12	4	0	0	18
+Kgd-mtDNA-S40.NAR	30	12	29	6	1	6	28	6	28	6	0	0	42
+Kgd-mtDNA-S41.NAR	2	15	2	13	0	2	2	12	2	12	0	0	17
+Kgd-mtDNA-S42.NAR	16	22	16	17	0	5	16	17	16	15	0	2	38
+Kgd-mtDNA-S43.NAR	7	17	7	14	0	3	7	15	7	14	0	1	24
+Kgd-mtDNA-S44.NAR	17	4	16	3	1	1	16	3	16	3	0	0	21
+Kgd-mtDNA-S45.NAR	0	33	0	31	0	2	0	30	0	30	0	0	33
+Kgd-mtDNA-S46.NAR	14	17	14	16	0	1	13	16	13	16	0	0	31
+Kgd-mtDNA-S47.NAR	11	5	11	3	0	2	11	3	11	3	0	0	16
+Kgd-mtDNA-S48.NAR	12	6	11	5	1	1	11	5	11	5	0	0	18
